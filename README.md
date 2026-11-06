@@ -99,12 +99,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
-    <img alt="Animated snake eating my GitHub contributions" src="./assets/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake.svg" />
+    <img alt="Animated snake eating my GitHub contributions" src="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake.svg" width="100%" />
   </picture>
 </p>
-<p align="center"><sub>A little snake that eats my contributions — regenerated daily by GitHub Actions.</sub></p>
+<p align="center"><sub>My contribution snake — regenerated automatically every day by GitHub Actions.</sub></p>
 
 ---
 
@@ -117,6 +117,37 @@
 </p>
 
 <p align="center"><sub>Steins;Gate · Code Geass — my overthinking, curated.</sub></p>
+
+<details>
+  <summary>✦ my neighbor totoro (ascii)</summary>
+
+```text
+            !         !
+           ! !       ! !
+          ! . !     ! . !
+             ^^^^^^^^^ ^
+           ^             ^
+         ^  (0)       (0)  ^
+        ^        ""         ^
+       ^   ***************    ^
+     ^   *                 *   ^
+    ^   *   /\   /\   /\    *    ^
+   ^   *                     *    ^
+  ^   *   /\   /\   /\   /\   *    ^
+ ^   *                         *    ^
+^  *                           *   ^
+^  *                           *   ^
+ ^ *                           *  ^
+  ^*                           * ^
+   ^ *                        * ^
+   ^  *                      *  ^
+     ^  *       ) (         * ^
+         ^^^^^^^^ ^^^^^^^^^
+```
+
+<p align="center"><sub>“Totoro” by Mabel Mak, from Christopher Johnson's ASCII Art Collection — <a href="https://asciiart.website/art/827">asciiart.website/art/827</a></sub></p>
+
+</details>
 
 ---
 
