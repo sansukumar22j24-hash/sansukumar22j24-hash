@@ -12,6 +12,16 @@
   <img src="https://komarev.com/ghpvc/?username=sansukumar22j24-hash&label=PROFILE%20VIEWS&color=FC466B&style=for-the-badge" alt="Profile views"/>
 </p>
 
+```text
+  ____                        _  __
+ / ___|  __ _ _ __  ___ _   _| |/ /   _ _ __ ___   __ _ _ __
+ \___ \ / _` | '_ \/ __| | | | ' / | | | '_ ` _ \ / _` | '__|
+  ___) | (_| | | | \__ \ |_| | . \ |_| | | | | | | (_| | |
+ |____/ \__,_|_| |_|___/\__,_|_|\_\__,_|_| |_| |_|\__,_|_|
+
+   backend() { while(true) { learn(); build(); } }
+```
+
 ---
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hey there! I'm **SansuKumar**
@@ -89,11 +99,24 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake.svg" />
-    <img alt="Snake eating my GitHub contributions" src="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+    <img alt="Animated snake eating my GitHub contributions" src="./assets/github-snake.svg" width="100%" />
   </picture>
 </p>
+<p align="center"><sub>A little snake that eats my contributions — regenerated daily by GitHub Actions.</sub></p>
+
+---
+
+## 🎌 Anime I'd Pause a Deploy For
+
+<p align="center">
+  <a href="https://giphy.com/gifs/cinema-absolute-tutturu-YE7L8pUvL1b8r8jgIb"><img height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzhsZTE2ZXFzYmZvYWx5eW05M3NsZHhibDF6a2l2Z3RtOWFoM3prYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YE7L8pUvL1b8r8jgIb/200.gif" alt="Steins;Gate - Tutturu" /></a>
+  &nbsp;&nbsp;
+  <a href="https://giphy.com/gifs/code-geass-lelouch-13pHvqbNfjaZyg"><img height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGl0Y2F2Z3gwcHA2MG9ld3M3bDhnOWhxejR2YjhteXRyZHdkNnh3byZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13pHvqbNfjaZyg/200.gif" alt="Code Geass - Lelouch" /></a>
+</p>
+
+<p align="center"><sub>Steins;Gate · Code Geass — my overthinking, curated.</sub></p>
 
 ---
 
