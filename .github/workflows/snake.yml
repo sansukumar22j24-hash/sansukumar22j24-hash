@@ -1,39 +1,37 @@
-name: generate animation
+name: Generate Contribution Dragon
 
 on:
-  # run automatically every 24 hours
   schedule:
     - cron: "0 0 * * *"
-
-  # allows to manually run the job at any time
   workflow_dispatch:
-
-  # run on every push to the main branch
   push:
     branches:
       - main
-      - master
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
-      # generates a snake game from a github user's contributions graph,
-      # outputting an animated SVG
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
 
-      # push the content of <build_dir> to the <target_branch>
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate animated contribution dragon
+        run: node scripts/generate-dragon.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          OUTPUT_DIR: dist
+
+      - name: Publish dragon SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
