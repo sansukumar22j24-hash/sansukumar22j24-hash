@@ -122,19 +122,10 @@
 ## 🐉 My Contribution Dragon
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/main/assets/dragon/real-dragon-banner.jpg" alt="Realistic black dragon breathing emerald-green fire" width="100%" />
+  <img src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/main/assets/dragon/github-contribution-dragon.svg" alt="Animated red-and-gold dragon breathing fire across a GitHub-style contribution grid" width="100%" />
 </p>
 
-<p align="center"><sub>Emerald fire. Dark wings. Every contribution leaves its mark.</sub></p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon.svg" />
-    <img alt="GitHub contribution calendar" src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon.svg" width="100%" />
-  </picture>
-</p>
-<p align="center"><sub>My contribution history, tracked automatically with GitHub Actions.</sub></p>
+<p align="center"><sub>A fire-breathing dragon racing across the contribution grid.</sub></p>
 
 ---
 
