@@ -99,9 +99,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake.svg" />
-    <img alt="Animated snake eating my GitHub contributions" src="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/raw/output/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </p>
 <p align="center"><sub>My contribution snake — regenerated automatically every day by GitHub Actions.</sub></p>
