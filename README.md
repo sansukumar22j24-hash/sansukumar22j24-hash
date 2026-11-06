@@ -130,6 +130,10 @@
 </p>
 <p align="center"><sub>A custom animated dragon guards my contribution history — regenerated daily with GitHub Actions.</sub></p>
 
+<p align="center">
+  🐉 <b><a href="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/tree/main/dragon-generator">Open Dragon Forge — customize and export your own dragon SVG ↗</a></b>
+</p>
+
 ---
 
 ## 🎌 Anime I'd Pause a Deploy For
