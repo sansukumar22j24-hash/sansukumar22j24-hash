@@ -119,16 +119,16 @@
 
 ---
 
-## <img src="https://img.icons8.com/fluency/96/snake.png" width="30"/> Contribution Snake
+## 🐉 Contribution Dragon
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-grid-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon.svg" />
+    <img alt="Animated dragon flying above my GitHub contribution graph" src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon.svg" width="100%" />
   </picture>
 </p>
-<p align="center"><sub>My contribution snake — regenerated automatically every day by GitHub Actions.</sub></p>
+<p align="center"><sub>A custom animated dragon guards my contribution history — regenerated daily with GitHub Actions.</sub></p>
 
 ---
 
