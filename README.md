@@ -90,8 +90,32 @@
 </p>
 
 <p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sansukumar22j24-hash&theme=github_dark" alt="Contributions over the last year" width="100%"/>
+</p>
+
+<p align="center">
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sansukumar22j24-hash&layout=compact&theme=radical&hide_border=true&langs_count=10" alt="Top languages" width="60%"/>
 </p>
+
+---
+
+## 🖥️ Terminal Mode
+
+<p align="center">
+  <img src="https://github-readme-insight-terminal-asci.vercel.app/svg/neofetch?user=sansukumar22j24-hash&theme=mac&color=1&scale=0.6" alt="ASCII neofetch card for sansukumar22j24-hash" width="65%" />
+</p>
+
+<details>
+  <summary>📊 open the full tmux dashboard</summary>
+
+  <p align="center">
+    <img src="https://github-readme-insight-terminal-asci.vercel.app/svg/dashboard?user=sansukumar22j24-hash&theme=mac&scale=0.6" alt="Terminal dashboard: profile, stats, streak, contribution graph and languages" width="85%" />
+  </p>
+
+  <p align="center"><sub>profile · stats · streak · 26-week graph · languages — one terminal window.</sub></p>
+</details>
+
+<p align="center"><sub><code>$ neofetch --github sansukumar22j24-hash</code> — live ASCII, typed out on load.</sub></p>
 
 ---
 
@@ -140,8 +164,8 @@
  ^ *                           *  ^
   ^*                           * ^
    ^ *                        * ^
-   ^  *                      *  ^
-     ^  *       ) (         * ^
+    ^  *                      *  ^
+      ^  *       ) (         * ^
          ^^^^^^^^ ^^^^^^^^^
 ```
 
@@ -168,5 +192,9 @@
 </p>
 
 <p align="center"><i>💬 Ask me anything about backend development — I don't bite, I only overthink.</i></p>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&author=random&authorQuote=10" alt="Random dev quote"/>
+</p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:3F5EFB,100:FC466B&height=140&section=footer&animation=fadeIn" width="100%" alt="Footer wave"/></p>
