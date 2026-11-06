@@ -119,20 +119,22 @@
 
 ---
 
-## 🐉 Contribution Dragon
+## 🐉 My Contribution Dragon
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/main/assets/dragon/real-dragon-banner.jpg" alt="Realistic black dragon breathing emerald-green fire" width="100%" />
+</p>
+
+<p align="center"><sub>Emerald fire. Dark wings. Every contribution leaves its mark.</sub></p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon.svg" />
-    <img alt="Animated dragon flying above my GitHub contribution graph" src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon.svg" width="100%" />
+    <img alt="GitHub contribution calendar" src="https://raw.githubusercontent.com/sansukumar22j24-hash/sansukumar22j24-hash/output/github-contribution-dragon.svg" width="100%" />
   </picture>
 </p>
-<p align="center"><sub>A custom animated dragon guards my contribution history — regenerated daily with GitHub Actions.</sub></p>
-
-<p align="center">
-  🐉 <b><a href="https://github.com/sansukumar22j24-hash/sansukumar22j24-hash/tree/main/dragon-generator">Open Dragon Forge — customize and export your own dragon SVG ↗</a></b>
-</p>
+<p align="center"><sub>My contribution history, tracked automatically with GitHub Actions.</sub></p>
 
 ---
 
