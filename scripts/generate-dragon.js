@@ -62,9 +62,14 @@ function buildSvg(calendar, theme) {
       const y = 126 + dayIndex * 15;
       const date = day ? esc(day.date) : 'No contribution data';
       const count = day ? Number(day.contributionCount || 0) : 0;
+      const fireTime = Math.max(0, Math.min(17.9, ((x + 5.5 + 55) / 1080) * 18));
+      const burnAnimation = count > 0
+        ? '<animate attributeName="opacity" values="1;0" dur=".35s" begin="' + fireTime.toFixed(3) + 's" repeatCount="indefinite" fill="freeze"/>'
+        : '';
       cells.push(
         '<rect x="' + x + '" y="' + y + '" width="11" height="11" rx="3" fill="' + palette[level] + '">' +
-        '<title>' + date + ': ' + count + (count === 1 ? ' contribution' : ' contributions') + '</title></rect>'
+        '<title>' + date + ': ' + count + (count === 1 ? ' contribution' : ' contributions') + '</title>' +
+        burnAnimation + '</rect>'
       );
     }
   });
@@ -107,6 +112,13 @@ function buildSvg(calendar, theme) {
     '<g transform="translate(-120 63)">',
     '  <animateTransform attributeName="transform" type="translate" from="-120 63" to="960 63" dur="18s" repeatCount="indefinite"/>',
     '  <g transform="scale(.72)">',
+    '    <path d="M83 3 C88 25 80 52 91 78 C100 104 83 137 94 164 C102 184 91 207 91 224 C76 204 78 184 80 164 C70 137 84 107 75 80 C67 54 77 26 83 3Z" fill="url(#flame)" opacity=".92" filter="url(#glow)">',
+    '      <animate attributeName="opacity" values=".25;1;.45" dur=".42s" repeatCount="indefinite"/>',
+    '      <animate attributeName="d" values="M83 3 C88 25 80 52 91 78 C100 104 83 137 94 164 C102 184 91 207 91 224 C76 204 78 184 80 164 C70 137 84 107 75 80 C67 54 77 26 83 3Z;M83 3 C98 25 77 52 99 78 C83 104 103 137 82 164 C96 184 84 207 91 224 C76 204 88 184 80 164 C91 137 68 107 85 80 C69 54 91 26 83 3Z;M83 3 C88 25 80 52 91 78 C100 104 83 137 94 164 C102 184 91 207 91 224 C76 204 78 184 80 164 C70 137 84 107 75 80 C67 54 77 26 83 3Z" dur=".7s" repeatCount="indefinite"/>',
+    '    </path>',
+    '    <path d="M83 10 C87 37 85 60 88 84 C91 111 84 139 88 163 C91 187 87 205 88 218" fill="none" stroke="#fff7ae" stroke-width="5" stroke-linecap="round" opacity=".95" filter="url(#glow)">',
+    '      <animate attributeName="opacity" values=".15;.9;.2" dur=".35s" repeatCount="indefinite"/>',
+    '    </path>',
     '    <path d="M-42 15 C-61 12 -75 1 -93 -12 C-88 9 -80 25 -61 31 C-78 34 -90 44 -98 58 C-72 52 -53 42 -34 29" fill="url(#dragonBody)" stroke="#312e81" stroke-width="3" stroke-linejoin="round"/>',
     '    <path d="M-48 15 C-28 -7 2 -9 26 5 C40 13 47 17 59 10 C48 28 24 38 -5 34 C-27 32 -42 26 -48 15Z" fill="url(#dragonBody)" stroke="#312e81" stroke-width="3"/>',
     '    <path d="M-23 28 C-8 35 15 35 34 24 L26 40 C8 48 -11 44 -23 28Z" fill="#312e81" opacity=".45"/>',
