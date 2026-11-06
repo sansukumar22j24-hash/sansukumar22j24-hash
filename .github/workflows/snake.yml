@@ -1,5 +1,9 @@
 name: Generate Contribution Dragon
 
+concurrency:
+  group: contribution-dragon
+  cancel-in-progress: true
+
 on:
   schedule:
     - cron: "0 0 * * *"
